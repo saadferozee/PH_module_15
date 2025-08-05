@@ -4,5 +4,15 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 
  */
 
+function ersaMultiplicationTable (numbers) {
+    let count = 1;
+    while (count <= 10) {
+        let table = numbers * count;
+        console.log(numbers, "*", count, "=", table);
+        count++;
+    }
+}
+ersaMultiplicationTable(8);
+
 
 /*programming hero*/
